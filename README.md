@@ -36,21 +36,19 @@ python3 gxost.x6.py
 python gxost.x6.py
 ```
 
-### İsteğe Bağlı Windows Kurulum
-```
-powershell -ExecutionPolicy Bypass -File .\install.ps1
-```
-Yeni bir PowerShell aç ve `gxost.cmd` ya da `python gxost.x6.py` çalıştır.
+### Not
+- Ek kurulum gerekmiyor. Klonladıktan sonra `python gxost.x6.py` ile çalıştırın.
 
-## Publish to GitHub
-- Create an empty repository on GitHub (e.g., `gxost.x6`)
-- Then run:
+## Yayın
+- Standart Git komutlarıyla yayınlayın:
 ```
-powershell -ExecutionPolicy Bypass -File .\publish.ps1 -User YOUR_USER -Repo gxost.x6
-# or use SSH if you have keys configured:
-powershell -ExecutionPolicy Bypass -File .\publish.ps1 -User YOUR_USER -Repo gxost.x6 -UseSSH
+git init
+git add -A
+git commit -m "Initial commit"
+git branch -M main
+git remote add origin https://github.com/YOUR_USER/gxost.x6.git
+git push -u origin main
 ```
-If prompted, sign in or paste a Personal Access Token when using HTTPS. If you see "repository not found", create the repo on GitHub and re-run the command.
 
 ## CLI Examples
 ```
@@ -75,9 +73,6 @@ gxost.x6/
     test_plan.md
   gxost.py
   gxost.x6.py
-  gxost.cmd
-  install.ps1
-  publish.ps1
   LICENSE
   README.md
   .gitignore
