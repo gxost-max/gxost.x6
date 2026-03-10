@@ -3,7 +3,7 @@
 GXOST X6, kullanıcı adı, e‑posta, telefon, alan adı, metadata ve dark‑web araması için hafif, etkileşimli bir OSINT aracıdır. Python 3 ile yazılmıştır, renkli bir CLI arayüzü ve detaylı yardım menüsü sunar.
 
 ![Banner](docs/assets/banner.svg)
-![Menü](docs/assets/menu.svg)
+![Boot](docs/assets/boot.svg)
 
 ## Amaç
 - OSINT süreçlerinde sık kullanılan adımları tek bir komut satırı aracıyla hızla uygulamak
@@ -70,6 +70,7 @@ gxost.x6/
   docs/
     assets/
       banner.svg
+      boot.svg
       menu.svg
   examples/
     usage.py
