@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="420">
+  <rect width="100%" height="100%" fill="#101010"/>
+  <rect x="80" y="60" width="660" height="300" fill="none" stroke="#ff1a1a" stroke-width="3"/>
+  <text x="120" y="100" font-family="monospace" font-size="22" fill="#ff4d4d">GXOST X6 FRAMEWORK</text>
+  <text x="120" y="130" font-family="monospace" font-size="18" fill="#ff4d4d">ELITE OSINT INTERFACE</text>
+  <text x="120" y="170" font-family="monospace" font-size="18" fill="#cccccc">1 ▸ Username Intelligence</text>
+  <text x="120" y="195" font-family="monospace" font-size="18" fill="#cccccc">2 ▸ Email Recon</text>
+  <text x="120" y="220" font-family="monospace" font-size="18" fill="#cccccc">3 ▸ Phone Lookup</text>
+  <text x="120" y="245" font-family="monospace" font-size="18" fill="#cccccc">4 ▸ Domain Investigation</text>
+  <text x="120" y="270" font-family="monospace" font-size="18" fill="#cccccc">5 ▸ Social Media Trace</text>
+  <text x="120" y="295" font-family="monospace" font-size="18" fill="#cccccc">6 ▸ Metadata Extractor</text>
+  <text x="120" y="320" font-family="monospace" font-size="18" fill="#cccccc">7 ▸ Dark Web Scan</text>
+  <text x="120" y="345" font-family="monospace" font-size="18" fill="#cccccc">9 ▸ Help   8 ▸ Exit</text>
+</svg>

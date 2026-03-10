@@ -11,6 +11,7 @@ import time
 import os
 import random
 import shutil
+__version__ = "1.0.0"
 ANSI_GREEN = "\033[92m"
 ANSI_RESET = "\033[0m"
 ANSI_WHITE = "\033[97m"
